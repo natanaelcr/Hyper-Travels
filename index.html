@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyper Travel</title>
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <navbar class="container">
+            <div class="navbar">
+                <img class="logo" src="\assets\HyperLogo.png" alt="">
+                <div>
+                    <a class="menu-item" href="#hero">Home</a>
+                    <a class="menu-item" href="#our-package">Our Package</a>
+                    <a class="menu-item" href="#call">Call Us</a>
+                </div>
+            </div>
+        </navbar>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <section id="hero">
+            <div class="container">
+                <div class="hero-slide">
+                    <img src="/assets/inazuma.jpg" alt="" class="pict">
+                </div>
+                <div class="hero-slide">
+                    <img src="/assets/mondstat.jpg" alt="" class="pict">
+                </div>
+                <div class="hero-slide">
+                    <img src="/assets/pelabuhan.jpg" alt="" class="pict">
+                </div>
+                <div class="hero-button">
+                    <button class="button" onclick="plusDivs(-1)">Previous</button>
+                    <button class="button" onclick="plusDivs(1)">Next</button>
+                </div>
+                <div class="hero-title">
+                    <h1>Your Trusted Travel Agents</h1>
+                    <h6>Where do you want to go?</h6>
+
+                </div>
+            </div>
+        </section>
+        <section id="about-contact">
+            <div class="container">
+                <div class="about-contact">
+                    <!-- about -->
+                    <div class="about">
+                        <img class="about-img" src="assets/liyue.jpg" alt="">
+                        <div class="about-content">
+                            <p>"Senang sekali rasanya berjalan bersama Hyper Travel!" </p>
+                        </div>
+                        <div class="content-person">
+                            <img class="person-img" src="assets/nilou.jpg" alt="">
+                            <div class="person-name">
+                                <h6>Nilou Sumeru</h6>
+                                <p>Penyanyi , 28</p>
+                            </div>
+                        </div>
+                        <hr class="hr-about">
+
+                        <div class="about-information">
+                            <h6 class="information-title">Kenyamanan yang dialami pelanggan kami, bisa anda dapatkan
+                                disini dengan kelebihan yang lainnya seperti:</h6>
+                            <ul class="information-list">
+                                <li>
+                                    <div class="list-number">1</div>
+                                    <p class="list-paragraf">Dapat wisata ke tempat yang belum pernah anda kunjungi</p>
+                                </li>
+                            </ul>
+                            <ul class="information-list">
+                                <li>
+                                    <div class="list-number">2</div>
+                                    <p class="list-paragraf">Biaya hotel yang fleksibel sesuai budget anda</p>
+                                </li>
+                            </ul>
+                            <ul class="information-list">
+                                <li>
+                                    <div class="list-number">3</div>
+                                    <p class="list-paragraf">Keamanan pada saat travelling merupakan prioritas kami</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- contact -->
+                    <div class="contact">
+                        <div class="card">
+                            <div class="card-title">
+                                <h4>Contact Us!</h4>
+                                <p>Sales akan menghubungi anda 1x24 jam setelah data anda kami terima.</p>
+                            </div>
+                            <form class="contact-form" name="message-form" action="">
+                                <label for="">Your Name</label>
+                                <input class="name" name="name" type="text" name="name"
+                                    placeholder="First and last name">
+                                <label for="">Email</label>
+                                <input class="email" name="email" type="email" placeholder="example@gmail.com">
+                                <label for="">What are you interested in?</label>
+                                <select class="select" name="select" id="select" placeholder="Select option">
+                                    <option value="" disabled selected>Choose</option>
+                                    <option value="teyvat">Teyvat</option>
+                                    <option value="celestia">Celestia</option>
+                                    <option value="hoyoverse">Hoyoverse</option>
+                                </select>
+                                <input class="contact-send" type="submit" value="Send">
+                            </form>
+                            
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+        <!-- our packages -->
+        <section id="our-package">
+            <div class="container">
+                <div class="our-package">
+                    <h1>Our Packages</h1>
+                </div>
+                <div class="packages1">
+                    <div class="list-packages">
+                        <img class="package-img" src="assets\plane-globe.png" alt="">
+                        <div class="package-name">
+                            <h6>Mondstat</h6>
+                            <p>Rasakan pengalaman tak terhingga di tempat kelahiran mondstat!</p>
+                        </div>
+                    </div>
+                    <div class="list-packages">
+                        <img class="package-img" src="assets\travel.png" alt="">
+                        <div class="package-name">
+                            <h6>Liyue</h6>
+                            <p>Rasakan pengalaman tak terhingga di tempat kelahiran liyue!</p>
+                        </div>
+                    </div>
+                    <div class="list-packages">
+                        <img class="package-img" src="assets\plane-globe.png" alt="">
+                        <div class="package-name">
+                            <h6>Chasm</h6>
+                            <p>Rasakan pengalaman tak terhingga di tempat kelahiran chasm!</p>
+                        </div>
+                    </div>
+
+                </div>
+                <hr class="hr-about">
+                <div class="packages2">
+                    <div class="list-packages">
+                        <img class="package-img" src="assets\travel.png" alt="">
+                        <div class="package-name">
+                            <h6>Inazuma</h6>
+                            <p>Rasakan pengalaman tak terhingga di tempat kelahiran inazuma!</p>
+                        </div>
+                    </div>
+                    <div class="list-packages">
+                        <img class="package-img" src="assets\plane-globe.png" alt="">
+                        <div class="package-name">
+                            <h6>Sumeru</h6>
+                            <p>Rasakan pengalaman tak terhingga di tempat kelahiran sumeru!</p>
+                        </div>
+                    </div>
+                    <div class="list-packages">
+                        <img class="package-img" src="assets\travel.png" alt="">
+                        <div class="package-name">
+                            <h6>Sumeru Dessert</h6>
+                            <p>Rasakan pengalaman tak terhingga di tempat kelahiran sumeru dessert!</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+        </section>
+
+        <!-- call us! -->
+        <section id="call">
+            <div class="container">
+                <div class="call-us">
+                    <h1>Contact US! if you want to travel around the world!</h1>
+                    <p>Dijamin pengalaman anda akan sangat berharga pada saat berTravelling bersama kami!</p>
+                    <a class="call" href="#about-contact">Contact US!</a>
+                </div>
+                <hr>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-brand">
+            Hyper Travel
+        </div>
+        <div class="footer-detail">
+            <div class="terms">
+                <span>Terms of Service</span>
+                <span>Privacy Policy</span>
+            </div>
+            <span>&#169;2023 Natanael | Hyper Travel</span>
+        </div>
+    </footer>
+</body>
+<script src="js/slide.js"></script>
+<script src="js/validation.js"></script>
+
+</html>
