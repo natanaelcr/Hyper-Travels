@@ -138,6 +138,7 @@ table {
 html {
 	scroll-behavior: smooth;
 	font-family: 'Climate Crisis', cursive;
+	scroll-padding-top: 70px;
 }
 
 body {
@@ -151,6 +152,7 @@ header {
 	left: 0;
 	right: 0;
 	background-color: whitesmoke;
+	z-index : 1000;
 }
 
 .container {
@@ -249,7 +251,7 @@ header {
 	position: absolute;
 	top: 35%;
 	left: 50%;
-	transform: translate(-50%, -50%);
+	transform: translate(-50%, 70%);
 	text-shadow: -1px 0 black, 0 1px black, 2px 0 black, 0 -1px black;
 	color: #ffe54c;
 }
@@ -414,9 +416,9 @@ header {
 }
 
 .contact-send {
-	margin-left: 10%;
+	display: flex;
 	margin-top: 100px;
-	width: 350px;
+	width: 300px;
 	height: 50px;
 	justify-content: center;
 	align-items: center;
